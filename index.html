@@ -1,53 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
+  <title>Novola – Enjoy a volatility-free Bitcoin!</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Novola</title>
   
-  <!-- CSS FILES -->
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/uikit@latest/dist/css/uikit.min.css">
-  
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
-    rel="stylesheet">
+  <!-- UIkit CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.14.3/dist/css/uikit.min.css" />
+
+  <!-- UIkit JS -->
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.14.3/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.14.3/dist/js/uikit-icons.min.js"></script>
+
   <style>
-    * {
-      font-family: 'Arimo', sans-serif !important;
+    .uk-text-white {
+      color: #ffffff;
+    }
+
+    .uk-button-white {
+      background-color: #ffffff;
     }
   </style>
 </head>
 
 <body>
-  <div class="uk-light wrap uk-background-primary">
-    <div class="uk-flex uk-flex-center uk-flex-middle uk-height-viewport uk-position-z-index uk-position-relative"
-      data-uk-height-viewport="min-height: 400">
+  <div uk-height-viewport class="uk-background-primary">
+    <div class="uk-flex uk-flex-center uk-flex-middle uk-height-viewport">
+      <div class="uk-container uk-text-center uk-margin-large-top uk-margin-large-bottom">
 
-      <!-- TEXT -->
-      <div class="uk-container uk-container-small uk-flex-auto uk-text-center"
-        data-uk-scrollspy="target: > .animate; cls: uk-animation-slide-bottom-small uk-invisible; delay: 300">
-        <h1 class="uk-heading-primary animate uk-invisible uk-heading-large uk-text-bold">&#42916;ovola</h1>
-        <div class="uk-width-4-5@m uk-margin-auto animate uk-invisible">
-          <p class="uk-text-lead">Enjoy a volatility-free Bitcoin! Coming soon...</p>
-        </div>
-        <div class="uk-margin-medium-top animate uk-invisible" data-uk-margin
-          data-uk-scrollspy-class="uk-animation-fade uk-invisible">
-          <a href="https://linktr.ee/novola" class="uk-button uk-button-default uk-button-large uk-width-2-3 uk-width-auto@s" data-uk-icon="arrow-right"
-            title="Learn More">Follow</a>
-        </div>
+        <svg width="177" height="150" viewBox="0 0 177 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M46.9482 103.371L37.8992 150H10.0071L16.9269 114.123L5.11001 118.382L0 101.668L20.8659 94.2158L39.1767 0H76.4372L98.3676 66.5365L128.495 55.7842L139.461 0H167.353L158.623 45.0319L170.546 40.7736L176.721 56.7424L154.791 64.6203L138.183 150H100.284L80.802 91.2349L46.9482 103.371ZM58.0199 46.5224C57.736 48.0837 56.9908 51.9517 55.7842 58.1263C54.5777 64.3009 52.9453 72.7821 50.8872 83.5699L75.3726 74.7339L60.4684 29.5955C59.9006 33.7119 59.4038 37.1895 58.978 40.0284C58.6231 42.7963 58.3038 44.961 58.0199 46.5224ZM116.572 121.469C117.069 117.991 117.495 114.904 117.85 112.207C118.275 109.51 118.63 107.168 118.914 105.181C119.269 103.265 119.908 99.8226 120.83 94.8545C121.753 89.8864 122.995 83.428 124.556 75.4791L103.797 82.9312L116.572 121.469Z"
+            fill="white" />
+        </svg>
+
+        <p class="uk-margin-medium uk-text-large uk-text-light uk-text-white">
+          Novola is the world's first protocol attempting to minimize Bitcoin's volatility <br class="uk-visible@m">
+          in order to make it accessible as a global means of payment.
+        </p>
+
+        <a class="uk-button uk-button-default uk-button-white uk-button-large" href="https://linktr.ee/novola">Coming soon...</a>
+
       </div>
-      <!-- /TEXT -->
-
     </div>
   </div>
-
-  <!-- JS FILES -->
-  <script src="https://cdn.jsdelivr.net/npm/uikit@latest/dist/js/uikit.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/uikit@latest/dist/js/uikit-icons.min.js"></script>
 </body>
 
 </html>
